@@ -1,0 +1,31 @@
+Commits:
+
+usuario@usuario-OptiPlex-3050:~$ git commit -a
+fatal: not a git repository (or any of the parent directories): .git
+usuario@usuario-OptiPlex-3050:~$ pwd
+/home/usuario
+usuario@usuario-OptiPlex-3050:~$ git init prueba01
+Initialised empty Git repository in /home/usuario/prueba01/.git/
+usuario@usuario-OptiPlex-3050:~$ ls
+Descargas   Escritorio  Música      prueba01  snap  Vídeos
+Documentos  Imágenes    Plantillas  Público   v
+usuario@usuario-OptiPlex-3050:~$ cd prueba01/
+usuario@usuario-OptiPlex-3050:~/prueba01$ ls
+usuario@usuario-OptiPlex-3050:~/prueba01$ ls-a
+ls-a: command not found
+usuario@usuario-OptiPlex-3050:~/prueba01$ ls -a
+.  ..  .git
+usuario@usuario-OptiPlex-3050:~/prueba01$ 
+
+archivos .txt y .doc:
+
+usuario@usuario-OptiPlex-3050:~/prueba01$ touch ejemplo.txt
+usuario@usuario-OptiPlex-3050:~/prueba01$ ls
+ejemplo.txt
+usuario@usuario-OptiPlex-3050:~/prueba01$ touch ejemplo2.doc
+usuario@usuario-OptiPlex-3050:~/prueba01$ ls
+ejemplo2.doc  ejemplo.txt
+
+tag:
+
+usuario@usuario-OptiPlex-3050:~/prueba01$ git tag -a v1.4 -m 'marcostag'
